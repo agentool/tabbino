@@ -57,6 +57,8 @@ export function shares(bill:Bill) {
 export function billProblems(bill:Bill,allowJoining=false):string[] {
   const problems:string[]=[];
   if(!bill.title.trim()||bill.items.some(i=>!i.name.trim())||bill.people.some(p=>!p.name.trim()))problems.push('Give the bill, each item, and each friend a name.');
+  const invalidEmail=bill.people.find(person=>person.email&&!z.email().safeParse(person.email).success);
+  if(invalidEmail)problems.push(`Enter a valid email for ${invalidEmail.name}, or leave it empty.`);
   if(!bill.items.length || total(bill)<=0) problems.push('Add at least one item with an amount.');
   if(!allowJoining&&bill.people.length<2) problems.push('Add at least two friends, including the person who paid.');
   if(new Set(bill.people.map(p=>p.id)).size!==bill.people.length || new Set(bill.items.map(p=>p.id)).size!==bill.items.length) problems.push('Duplicate item or friend IDs.');

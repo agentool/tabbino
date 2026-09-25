@@ -7,3 +7,11 @@ This version has breaking changes — APIs, conventions, and file structure may 
 This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
 
 <!-- END:nextjs-agent-rules -->
+
+## Product copy
+
+Every UI label must serve a function: an action, a status, or an actual explanation. No slogans or decorative marketing copy. Keep useful constraints such as accepted image formats and upload limits. Reviewers must apply this rule throughout the full flow.
+
+## Personal data
+
+Never commit personal receiving wallets, payment emails, receipt photos, credentials, or account-specific configuration. New bills have empty payment destinations. Signed-in participant details come from the active session at runtime.
