@@ -15,7 +15,7 @@ Phone-friendly receipt splitting for friends. Built with Next.js, React, TypeScr
 
 ## Payment setup
 
-New and example bills start with empty receiving wallets and PayPal email. The organizer supplies payment details for each bill before sharing. No personal payment defaults or credentials are bundled.
+Signed-in users can save USDC receiving wallets and a PayPal email in Account → Payment details. These are stored privately per Firebase user and used for new bills when that user is the payer. Guest bills start empty. Existing bills retain their payment snapshots; use “Use my saved payment details” to explicitly update an editable bill. Profile edits validate addresses and reject stale cross-device saves. No personal payment defaults or credentials are bundled.
 
 ## Development
 

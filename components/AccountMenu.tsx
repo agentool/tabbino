@@ -1,10 +1,10 @@
 'use client';
 
 import { useEffect, useId, useRef, useState } from 'react';
-import { FileText, LoaderCircle, LogOut, UserRound } from 'lucide-react';
+import { FileText, LoaderCircle, LogOut, UserRound, Wallet } from 'lucide-react';
 import { useSession } from './AuthProvider';
 
-export function AccountMenu({onSavedBills,onError}:{onSavedBills:()=>void;onError:(error:unknown)=>void}){
+export function AccountMenu({onSavedBills,onPaymentDetails,onError}:{onSavedBills:()=>void;onPaymentDetails:()=>void;onError:(error:unknown)=>void}){
   const session=useSession(),menuId=useId();
   const [open,setOpen]=useState(false),[busy,setBusy]=useState(false),[failedPhoto,setFailedPhoto]=useState('');
   const root=useRef<HTMLDivElement>(null),trigger=useRef<HTMLButtonElement>(null),menu=useRef<HTMLDivElement>(null);
@@ -39,6 +39,7 @@ export function AccountMenu({onSavedBills,onError}:{onSavedBills:()=>void;onErro
           }
         }}>
           <button role="menuitem" tabIndex={-1} onClick={()=>{close(true);onSavedBills();}}><FileText size={17}/>Saved bills</button>
+          <button role="menuitem" tabIndex={-1} onClick={()=>{close(true);onPaymentDetails();}}><Wallet size={17}/>Payment details</button>
           <button role="menuitem" tabIndex={-1} disabled={busy} onClick={logOut}>{busy?<LoaderCircle size={17} className="spin"/>:<LogOut size={17}/>}Sign out</button>
         </div>
       </div>}
