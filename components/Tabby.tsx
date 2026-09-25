@@ -128,18 +128,18 @@ export default function Tabby({shared=false}:{shared?:boolean}){
   async function copy(value:string,label='Copied'){try{await navigator.clipboard.writeText(value);setToast(label);}catch{setError('Could not copy. Select and copy the link or address manually.');}}
   async function scan(file?:File){
     if(!file||!bill||scanRequest.current)return;
-    const controller=new AbortController(),id=bill.id;scanRequest.current=controller;
+    const controller=new AbortController(),id=bill.id;scanRequest.current=controller;let uploadedPhoto='';
     const current=()=>!controller.signal.aborted&&activeBillId.current===id;
     setError('');setBusy('Reading receipt…');setUpload({stage:'preparing',percent:null});
     try{
       const input=await prepareImage(file);if(!current())return;
-      setPendingPreview(input.preview);
+      uploadedPhoto=input.preview;setPendingPreview(input.preview);
       const {receipt}=await uploadReceipt<{receipt:{merchant:string;date:string;currency:string;items:{name:string;quantity:number;lineTotal:number}[];tax:number;tip:number;fees:number;discount:number;total:number|null;notes:string[]}}>({image:input.image,mimeType:input.mimeType},controller.signal,phase=>{if(current())setUpload(phase);});
       if(!current())return;autoRateAttempt.current='';setPreview(input.preview);
       void savePhoto(id,input.preview).catch(()=>setToast('The photo could not be saved on this device. Save the draft to your account to keep it.'));
       change({title:receipt.merchant||bill.title,merchant:receipt.merchant,date:receipt.date||bill.date,currency:receipt.currency,precision:currencyDigits(receipt.currency),rateSource:'',items:receipt.items.map((i:{name:string;quantity:number;lineTotal:number})=>({id:crypto.randomUUID(),name:i.name,quantity:i.quantity,amount:decimalToUnits(i.lineTotal,currencyDigits(receipt.currency)),people:bill.people.map(p=>p.id)})),tax:decimalToUnits(receipt.tax,currencyDigits(receipt.currency)),tip:decimalToUnits(receipt.tip,currencyDigits(receipt.currency)),fees:decimalToUnits(receipt.fees,currencyDigits(receipt.currency)),discount:decimalToUnits(receipt.discount,currencyDigits(receipt.currency)),receiptTotal:receipt.total===null?null:decimalToUnits(receipt.total,currencyDigits(receipt.currency)),notes:receipt.notes,reviewed:false,rate:receipt.currency==='USD'?1:0,rateDate:''});
       setToast('Receipt read. Check the amounts below.');
-    }catch(e){if(current())notifyError(e);}finally{
+    }catch(e){if(current()){if(!bill.items.length&&uploadedPhoto){setPreview(uploadedPhoto);void savePhoto(id,uploadedPhoto).catch(()=>{});}notifyError(e);}}finally{
       if(scanRequest.current===controller){scanRequest.current=null;setBusy('');setUpload(null);setPendingPreview('');}
       if(fileRef.current)fileRef.current.value='';if(photoRef.current)photoRef.current.value='';
     }
@@ -184,9 +184,9 @@ export default function Tabby({shared=false}:{shared?:boolean}){
             {step===0&&!shared&&<>
               <div className={`scan-panel ${busy?'is-busy':''}`} onDragOver={e=>{e.preventDefault();}} onDrop={e=>{e.preventDefault();if(!busy)scan(e.dataTransfer.files[0]);}}>
                 <div className="scan-heading"><span className="scan-icon"><ScanLine size={26}/></span></div>
-                <h2>{upload?upload.stage==='preparing'?'Preparing photo…':upload.stage==='uploading'?'Uploading receipt…':'Reading receipt…':itemCount?'Replace receipt photo':'Upload receipt'}</h2><p>{upload?upload.stage==='preparing'?'Resizing the photo for upload.':upload.stage==='uploading'?'Keep this page open until the upload finishes.':'Extracting items, currency, tax, tip, and total.':'Include all line items and totals in the photo.'}</p>
+                <h2>{upload?upload.stage==='preparing'?'Preparing photo…':upload.stage==='uploading'?'Uploading receipt…':'Reading receipt…':preview?'Replace receipt photo':'Upload receipt'}</h2><p>{upload?upload.stage==='preparing'?'Resizing the photo for upload.':upload.stage==='uploading'?'Keep this page open until the upload finishes.':'Extracting items, currency, tax, tip, and total.':'Include all line items and totals in the photo.'}</p>
                 <div className="scan-actions"><button className="button dark" disabled={!!busy} onClick={()=>photoRef.current?.click()}>{busy?<LoaderCircle size={18} className="spin"/>:<Camera size={18}/>}Take a photo</button><button className="button white" disabled={!!busy} onClick={()=>fileRef.current?.click()}><Upload size={17}/>Upload receipt</button></div>
-                {upload&&<div className="upload-progress"><div role="status" aria-live="polite">{upload.stage==='uploading'&&upload.percent!==null?`Uploaded ${upload.percent}%`:upload.stage==='preparing'?'Preparing photo':'Reading receipt'}</div><progress aria-label={upload.stage==='uploading'?'Receipt upload progress':'Receipt processing progress'} max={100} value={upload.stage==='uploading'&&upload.percent!==null?upload.percent:undefined}/><button className="text-button" onClick={cancelScan}>Cancel {upload.stage==='reading'?'scan':'upload'}</button></div>}
+                {upload&&<div className="upload-progress"><div role="status" aria-live="polite">{upload.stage==='uploading'?(upload.percent!==null?`Uploaded ${upload.percent}%`:'Uploading receipt'):upload.stage==='preparing'?'Preparing photo':'Reading receipt'}</div><progress aria-label={upload.stage==='uploading'?'Receipt upload progress':'Receipt processing progress'} max={100} value={upload.stage==='uploading'&&upload.percent!==null?upload.percent:undefined}/><button className="text-button" onClick={cancelScan}>Cancel {upload.stage==='reading'?'scan':'upload'}</button></div>}
                 <span className="upload-note">JPEG, PNG, WebP · up to 25 MB · or drop a photo here</span>
                 <input ref={photoRef} className="visually-hidden" type="file" accept="image/*" capture="environment" aria-label="Take receipt photo" onChange={e=>scan(e.target.files?.[0])}/><input ref={fileRef} className="visually-hidden" type="file" accept="image/jpeg,image/png,image/webp,image/heic,image/heif" aria-label="Upload receipt image" onChange={e=>scan(e.target.files?.[0])}/>
               </div>
