@@ -86,8 +86,8 @@ export function sampleBill():Bill {
 export function paymentUri(network:Network,address:string,cents:number,reference:string):string {
   const amount=(cents/100).toFixed(2);
   if(network==='base') return `ethereum:${USDC.base}@8453/transfer?address=${encodeURIComponent(address)}&uint256=${BigInt(cents)*10000n}`;
-  if(network==='solana') return `solana:${address}?${new URLSearchParams({amount,'spl-token':USDC.solana,label:'Tabby',memo:reference})}`;
-  return `web+stellar:pay?${new URLSearchParams({destination:address,amount,asset_code:'USDC',asset_issuer:USDC.stellar,memo:reference,memo_type:'MEMO_TEXT',msg:'Tabby bill split'})}`;
+  if(network==='solana') return `solana:${address}?${new URLSearchParams({amount,'spl-token':USDC.solana,label:'Tabbino',memo:reference})}`;
+  return `web+stellar:pay?${new URLSearchParams({destination:address,amount,asset_code:'USDC',asset_issuer:USDC.stellar,memo:reference,memo_type:'MEMO_TEXT',msg:'Tabbino bill split'})}`;
 }
 export const paymentReference=(bill:Bill,personId:string)=>`tb-${bill.id.slice(0,8)}-${bill.people.findIndex(p=>p.id===personId)}`;
 export const explorer=(network:Network,hash:string)=>network==='base'?`https://basescan.org/tx/${hash}`:network==='solana'?`https://solscan.io/tx/${hash}`:`https://stellar.expert/explorer/public/tx/${hash}`;

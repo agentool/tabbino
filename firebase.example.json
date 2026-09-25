@@ -2,7 +2,7 @@
   "auth": {
     "providers": {
       "googleSignIn": {
-        "oAuthBrandDisplayName": "Tabby",
+        "oAuthBrandDisplayName": "Tabbino",
         "supportEmail": "owner@example.com"
       }
     }

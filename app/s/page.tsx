@@ -1,2 +1,2 @@
-import Tabby from '@/components/Tabby';
-export default function SharedPage(){return <Tabby shared/>;}
+import Tabbino from '@/components/Tabbino';
+export default function SharedPage(){return <Tabbino shared/>;}

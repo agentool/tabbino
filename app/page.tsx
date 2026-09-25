@@ -1,2 +1,2 @@
-import Tabby from '@/components/Tabby';
-export default function Page(){return <Tabby/>;}
+import Tabbino from '@/components/Tabbino';
+export default function Page(){return <Tabbino/>;}

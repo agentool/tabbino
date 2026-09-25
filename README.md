@@ -1,4 +1,4 @@
-# Tabby
+# Tabbino
 
 Phone-friendly receipt splitting for friends. Built with Next.js, React, TypeScript, and Gemini 3.8 Flash.
 
@@ -24,6 +24,10 @@ Use Node 24 and npm. Run `npm ci`, set environment variables from `.env.example`
 `GEMINI_API_KEY`, `BLOB_READ_WRITE_TOKEN`, and `SHARE_SECRET` are server-only. Never expose them using NEXT_PUBLIC variables. Connect a private Vercel Blob store to the project. Keep SHARE_SECRET stable to preserve older encrypted snapshot links. Live links use a random capability token and private server-side storage. Conditional writes and retries prevent simultaneous contributions from overwriting each other.
 
 ## Deployment
+
+App: https://tabbino.vercel.app · Repository: https://github.com/agentool/tabbino
+
+The previous randomized domain remains attached for existing split links and device-local drafts. Sign in and save a draft there to access it on the new domain. Internal storage keys retain their original names to preserve existing drafts.
 
 See `deployment.json` for public project IDs and the stable domain. `.github/workflows/vercel.yml` deploys same-repository pull requests as previews; both `main` and `prod` push to this project's production environment. Vercel native Git integration is not used. Required GitHub secrets: VERCEL_TOKEN, VERCEL_ORG_ID, VERCEL_PROJECT_ID. Runtime secrets are managed in Vercel.
 
