@@ -70,6 +70,12 @@ export default function Tabby({shared=false}:{shared?:boolean}){
     }
   },[shared]);
   useEffect(()=>{
+    if(!shared)return;
+    const openLinkedBill=()=>window.location.reload();
+    window.addEventListener('hashchange',openLinkedBill);
+    return()=>window.removeEventListener('hashchange',openLinkedBill);
+  },[shared]);
+  useEffect(()=>{
     if(shared||token||!session.user)return;
     setBill(current=>{
       if(!current)return current;
