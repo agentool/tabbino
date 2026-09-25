@@ -1,0 +1,1 @@
+export function GET(){return Response.json({ok:true,scanning:Boolean(process.env.GEMINI_API_KEY),sharing:Boolean(process.env.BLOB_READ_WRITE_TOKEN),sharedStorage:Boolean(process.env.BLOB_READ_WRITE_TOKEN),model:process.env.GEMINI_MODEL||'gemini-3.8-flash',networks:['base','stellar','solana']},{headers:{'Cache-Control':'no-store'}});}

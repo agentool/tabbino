@@ -1,0 +1,14 @@
+{
+  "project": "agentool--tabby--a972af05",
+  "alias": "agentool-tabby-a972af05.vercel.app",
+  "repo": "agentool/tabby",
+  "framework": "nextjs",
+  "runtime": "24.x",
+  "rootDirectory": ".",
+  "branches": {
+    "main": "production",
+    "prod": "production"
+  },
+  "projectId": "prj_ECG2f0xY9paFaAjkSUumIBEXvyzL",
+  "orgId": "team_QCXRpUEFhyjHGcqFv8NNhd2l"
+}

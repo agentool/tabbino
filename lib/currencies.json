@@ -1,0 +1,1509 @@
+[
+  {
+    "code": "AED",
+    "name": "UAE Dirham",
+    "digits": 2,
+    "countries": [
+      "United Arab Emirates (The)"
+    ]
+  },
+  {
+    "code": "AFN",
+    "name": "Afghani",
+    "digits": 2,
+    "countries": [
+      "Afghanistan"
+    ]
+  },
+  {
+    "code": "ALL",
+    "name": "Lek",
+    "digits": 2,
+    "countries": [
+      "Albania"
+    ]
+  },
+  {
+    "code": "AMD",
+    "name": "Armenian Dram",
+    "digits": 2,
+    "countries": [
+      "Armenia"
+    ]
+  },
+  {
+    "code": "AOA",
+    "name": "Kwanza",
+    "digits": 2,
+    "countries": [
+      "Angola"
+    ]
+  },
+  {
+    "code": "ARS",
+    "name": "Argentine Peso",
+    "digits": 2,
+    "countries": [
+      "Argentina"
+    ]
+  },
+  {
+    "code": "AUD",
+    "name": "Australian Dollar",
+    "digits": 2,
+    "countries": [
+      "Australia",
+      "Christmas Island",
+      "Cocos (Keeling) Islands (The)",
+      "Heard Island And Mcdonald Islands",
+      "Kiribati",
+      "Nauru",
+      "Norfolk Island",
+      "Tuvalu"
+    ]
+  },
+  {
+    "code": "AWG",
+    "name": "Aruban Florin",
+    "digits": 2,
+    "countries": [
+      "Aruba"
+    ]
+  },
+  {
+    "code": "AZN",
+    "name": "Azerbaijan Manat",
+    "digits": 2,
+    "countries": [
+      "Azerbaijan"
+    ]
+  },
+  {
+    "code": "BAM",
+    "name": "Convertible Mark",
+    "digits": 2,
+    "countries": [
+      "Bosnia And Herzegovina"
+    ]
+  },
+  {
+    "code": "BBD",
+    "name": "Barbados Dollar",
+    "digits": 2,
+    "countries": [
+      "Barbados"
+    ]
+  },
+  {
+    "code": "BDT",
+    "name": "Taka",
+    "digits": 2,
+    "countries": [
+      "Bangladesh"
+    ]
+  },
+  {
+    "code": "BHD",
+    "name": "Bahraini Dinar",
+    "digits": 3,
+    "countries": [
+      "Bahrain"
+    ]
+  },
+  {
+    "code": "BIF",
+    "name": "Burundi Franc",
+    "digits": 0,
+    "countries": [
+      "Burundi"
+    ]
+  },
+  {
+    "code": "BMD",
+    "name": "Bermudian Dollar",
+    "digits": 2,
+    "countries": [
+      "Bermuda"
+    ]
+  },
+  {
+    "code": "BND",
+    "name": "Brunei Dollar",
+    "digits": 2,
+    "countries": [
+      "Brunei Darussalam"
+    ]
+  },
+  {
+    "code": "BOB",
+    "name": "Boliviano",
+    "digits": 2,
+    "countries": [
+      "Bolivia (Plurinational State Of)"
+    ]
+  },
+  {
+    "code": "BOV",
+    "name": "Mvdol",
+    "digits": 2,
+    "countries": [
+      "Bolivia (Plurinational State Of)"
+    ]
+  },
+  {
+    "code": "BRL",
+    "name": "Brazilian Real",
+    "digits": 2,
+    "countries": [
+      "Brazil"
+    ]
+  },
+  {
+    "code": "BSD",
+    "name": "Bahamian Dollar",
+    "digits": 2,
+    "countries": [
+      "Bahamas (The)"
+    ]
+  },
+  {
+    "code": "BTN",
+    "name": "Ngultrum",
+    "digits": 2,
+    "countries": [
+      "Bhutan"
+    ]
+  },
+  {
+    "code": "BWP",
+    "name": "Pula",
+    "digits": 2,
+    "countries": [
+      "Botswana"
+    ]
+  },
+  {
+    "code": "BYN",
+    "name": "Belarusian Ruble",
+    "digits": 2,
+    "countries": [
+      "Belarus"
+    ]
+  },
+  {
+    "code": "BZD",
+    "name": "Belize Dollar",
+    "digits": 2,
+    "countries": [
+      "Belize"
+    ]
+  },
+  {
+    "code": "CAD",
+    "name": "Canadian Dollar",
+    "digits": 2,
+    "countries": [
+      "Canada"
+    ]
+  },
+  {
+    "code": "CDF",
+    "name": "Congolese Franc",
+    "digits": 2,
+    "countries": [
+      "Congo (The Democratic Republic Of The)"
+    ]
+  },
+  {
+    "code": "CHE",
+    "name": "WIR Euro",
+    "digits": 2,
+    "countries": [
+      "Switzerland"
+    ]
+  },
+  {
+    "code": "CHF",
+    "name": "Swiss Franc",
+    "digits": 2,
+    "countries": [
+      "Liechtenstein",
+      "Switzerland"
+    ]
+  },
+  {
+    "code": "CHW",
+    "name": "WIR Franc",
+    "digits": 2,
+    "countries": [
+      "Switzerland"
+    ]
+  },
+  {
+    "code": "CLF",
+    "name": "Unidad de Fomento",
+    "digits": 4,
+    "countries": [
+      "Chile"
+    ]
+  },
+  {
+    "code": "CLP",
+    "name": "Chilean Peso",
+    "digits": 0,
+    "countries": [
+      "Chile"
+    ]
+  },
+  {
+    "code": "CNY",
+    "name": "Yuan Renminbi",
+    "digits": 2,
+    "countries": [
+      "China"
+    ]
+  },
+  {
+    "code": "COP",
+    "name": "Colombian Peso",
+    "digits": 2,
+    "countries": [
+      "Colombia"
+    ]
+  },
+  {
+    "code": "COU",
+    "name": "Unidad de Valor Real",
+    "digits": 2,
+    "countries": [
+      "Colombia"
+    ]
+  },
+  {
+    "code": "CRC",
+    "name": "Costa Rican Colon",
+    "digits": 2,
+    "countries": [
+      "Costa Rica"
+    ]
+  },
+  {
+    "code": "CUP",
+    "name": "Cuban Peso",
+    "digits": 2,
+    "countries": [
+      "Cuba"
+    ]
+  },
+  {
+    "code": "CVE",
+    "name": "Cabo Verde Escudo",
+    "digits": 2,
+    "countries": [
+      "Cabo Verde"
+    ]
+  },
+  {
+    "code": "CZK",
+    "name": "Czech Koruna",
+    "digits": 2,
+    "countries": [
+      "Czechia"
+    ]
+  },
+  {
+    "code": "DJF",
+    "name": "Djibouti Franc",
+    "digits": 0,
+    "countries": [
+      "Djibouti"
+    ]
+  },
+  {
+    "code": "DKK",
+    "name": "Danish Krone",
+    "digits": 2,
+    "countries": [
+      "Denmark",
+      "Faroe Islands (The)",
+      "Greenland"
+    ]
+  },
+  {
+    "code": "DOP",
+    "name": "Dominican Peso",
+    "digits": 2,
+    "countries": [
+      "Dominican Republic (The)"
+    ]
+  },
+  {
+    "code": "DZD",
+    "name": "Algerian Dinar",
+    "digits": 2,
+    "countries": [
+      "Algeria"
+    ]
+  },
+  {
+    "code": "EGP",
+    "name": "Egyptian Pound",
+    "digits": 2,
+    "countries": [
+      "Egypt"
+    ]
+  },
+  {
+    "code": "ERN",
+    "name": "Nakfa",
+    "digits": 2,
+    "countries": [
+      "Eritrea"
+    ]
+  },
+  {
+    "code": "ETB",
+    "name": "Ethiopian Birr",
+    "digits": 2,
+    "countries": [
+      "Ethiopia"
+    ]
+  },
+  {
+    "code": "EUR",
+    "name": "Euro",
+    "digits": 2,
+    "countries": [
+      "Åland Islands",
+      "Andorra",
+      "Austria",
+      "Belgium",
+      "Bulgaria",
+      "Croatia",
+      "Cyprus",
+      "Estonia",
+      "European Union",
+      "Finland",
+      "France",
+      "French Guiana",
+      "French Southern Territories (The)",
+      "Germany",
+      "Greece",
+      "Guadeloupe",
+      "Holy See (The)",
+      "Ireland",
+      "Italy",
+      "Latvia",
+      "Lithuania",
+      "Luxembourg",
+      "Malta",
+      "Martinique",
+      "Mayotte",
+      "Monaco",
+      "Montenegro",
+      "Netherlands (The)",
+      "Portugal",
+      "Réunion",
+      "Saint Barthélemy",
+      "Saint Martin (French Part)",
+      "Saint Pierre And Miquelon",
+      "San Marino",
+      "Slovakia",
+      "Slovenia",
+      "Spain"
+    ]
+  },
+  {
+    "code": "FJD",
+    "name": "Fiji Dollar",
+    "digits": 2,
+    "countries": [
+      "Fiji"
+    ]
+  },
+  {
+    "code": "FKP",
+    "name": "Falkland Islands Pound",
+    "digits": 2,
+    "countries": [
+      "Falkland Islands (The) [Malvinas]"
+    ]
+  },
+  {
+    "code": "GBP",
+    "name": "Pound Sterling",
+    "digits": 2,
+    "countries": [
+      "Guernsey",
+      "Isle Of Man",
+      "Jersey",
+      "United Kingdom Of Great Britain And Northern Ireland (The)"
+    ]
+  },
+  {
+    "code": "GEL",
+    "name": "Lari",
+    "digits": 2,
+    "countries": [
+      "Georgia"
+    ]
+  },
+  {
+    "code": "GHS",
+    "name": "Ghana Cedi",
+    "digits": 2,
+    "countries": [
+      "Ghana"
+    ]
+  },
+  {
+    "code": "GIP",
+    "name": "Gibraltar Pound",
+    "digits": 2,
+    "countries": [
+      "Gibraltar"
+    ]
+  },
+  {
+    "code": "GMD",
+    "name": "Dalasi",
+    "digits": 2,
+    "countries": [
+      "Gambia (The)"
+    ]
+  },
+  {
+    "code": "GNF",
+    "name": "Guinean Franc",
+    "digits": 0,
+    "countries": [
+      "Guinea"
+    ]
+  },
+  {
+    "code": "GTQ",
+    "name": "Quetzal",
+    "digits": 2,
+    "countries": [
+      "Guatemala"
+    ]
+  },
+  {
+    "code": "GYD",
+    "name": "Guyana Dollar",
+    "digits": 2,
+    "countries": [
+      "Guyana"
+    ]
+  },
+  {
+    "code": "HKD",
+    "name": "Hong Kong Dollar",
+    "digits": 2,
+    "countries": [
+      "Hong Kong"
+    ]
+  },
+  {
+    "code": "HNL",
+    "name": "Lempira",
+    "digits": 2,
+    "countries": [
+      "Honduras"
+    ]
+  },
+  {
+    "code": "HTG",
+    "name": "Gourde",
+    "digits": 2,
+    "countries": [
+      "Haiti"
+    ]
+  },
+  {
+    "code": "HUF",
+    "name": "Forint",
+    "digits": 2,
+    "countries": [
+      "Hungary"
+    ]
+  },
+  {
+    "code": "IDR",
+    "name": "Rupiah",
+    "digits": 2,
+    "countries": [
+      "Indonesia"
+    ]
+  },
+  {
+    "code": "ILS",
+    "name": "New Israeli Sheqel",
+    "digits": 2,
+    "countries": [
+      "Israel"
+    ]
+  },
+  {
+    "code": "INR",
+    "name": "Indian Rupee",
+    "digits": 2,
+    "countries": [
+      "Bhutan",
+      "India"
+    ]
+  },
+  {
+    "code": "IQD",
+    "name": "Iraqi Dinar",
+    "digits": 3,
+    "countries": [
+      "Iraq"
+    ]
+  },
+  {
+    "code": "IRR",
+    "name": "Iranian Rial",
+    "digits": 2,
+    "countries": [
+      "Iran (Islamic Republic Of)"
+    ]
+  },
+  {
+    "code": "ISK",
+    "name": "Iceland Krona",
+    "digits": 0,
+    "countries": [
+      "Iceland"
+    ]
+  },
+  {
+    "code": "JMD",
+    "name": "Jamaican Dollar",
+    "digits": 2,
+    "countries": [
+      "Jamaica"
+    ]
+  },
+  {
+    "code": "JOD",
+    "name": "Jordanian Dinar",
+    "digits": 3,
+    "countries": [
+      "Jordan"
+    ]
+  },
+  {
+    "code": "JPY",
+    "name": "Yen",
+    "digits": 0,
+    "countries": [
+      "Japan"
+    ]
+  },
+  {
+    "code": "KES",
+    "name": "Kenyan Shilling",
+    "digits": 2,
+    "countries": [
+      "Kenya"
+    ]
+  },
+  {
+    "code": "KGS",
+    "name": "Som",
+    "digits": 2,
+    "countries": [
+      "Kyrgyzstan"
+    ]
+  },
+  {
+    "code": "KHR",
+    "name": "Riel",
+    "digits": 2,
+    "countries": [
+      "Cambodia"
+    ]
+  },
+  {
+    "code": "KMF",
+    "name": "Comorian Franc ",
+    "digits": 0,
+    "countries": [
+      "Comoros (The)"
+    ]
+  },
+  {
+    "code": "KPW",
+    "name": "North Korean Won",
+    "digits": 2,
+    "countries": [
+      "Korea (The Democratic People’S Republic Of)"
+    ]
+  },
+  {
+    "code": "KRW",
+    "name": "Won",
+    "digits": 0,
+    "countries": [
+      "Korea (The Republic Of)"
+    ]
+  },
+  {
+    "code": "KWD",
+    "name": "Kuwaiti Dinar",
+    "digits": 3,
+    "countries": [
+      "Kuwait"
+    ]
+  },
+  {
+    "code": "KYD",
+    "name": "Cayman Islands Dollar",
+    "digits": 2,
+    "countries": [
+      "Cayman Islands (The)"
+    ]
+  },
+  {
+    "code": "KZT",
+    "name": "Tenge",
+    "digits": 2,
+    "countries": [
+      "Kazakhstan"
+    ]
+  },
+  {
+    "code": "LAK",
+    "name": "Lao Kip",
+    "digits": 2,
+    "countries": [
+      "Lao People’S Democratic Republic (The)"
+    ]
+  },
+  {
+    "code": "LBP",
+    "name": "Lebanese Pound",
+    "digits": 2,
+    "countries": [
+      "Lebanon"
+    ]
+  },
+  {
+    "code": "LKR",
+    "name": "Sri Lanka Rupee",
+    "digits": 2,
+    "countries": [
+      "Sri Lanka"
+    ]
+  },
+  {
+    "code": "LRD",
+    "name": "Liberian Dollar",
+    "digits": 2,
+    "countries": [
+      "Liberia"
+    ]
+  },
+  {
+    "code": "LSL",
+    "name": "Loti",
+    "digits": 2,
+    "countries": [
+      "Lesotho"
+    ]
+  },
+  {
+    "code": "LYD",
+    "name": "Libyan Dinar",
+    "digits": 3,
+    "countries": [
+      "Libya"
+    ]
+  },
+  {
+    "code": "MAD",
+    "name": "Moroccan Dirham",
+    "digits": 2,
+    "countries": [
+      "Morocco",
+      "Western Sahara"
+    ]
+  },
+  {
+    "code": "MDL",
+    "name": "Moldovan Leu",
+    "digits": 2,
+    "countries": [
+      "Moldova (The Republic Of)"
+    ]
+  },
+  {
+    "code": "MGA",
+    "name": "Malagasy Ariary",
+    "digits": 2,
+    "countries": [
+      "Madagascar"
+    ]
+  },
+  {
+    "code": "MKD",
+    "name": "Denar",
+    "digits": 2,
+    "countries": [
+      "North Macedonia"
+    ]
+  },
+  {
+    "code": "MMK",
+    "name": "Kyat",
+    "digits": 2,
+    "countries": [
+      "Myanmar"
+    ]
+  },
+  {
+    "code": "MNT",
+    "name": "Tugrik",
+    "digits": 2,
+    "countries": [
+      "Mongolia"
+    ]
+  },
+  {
+    "code": "MOP",
+    "name": "Pataca",
+    "digits": 2,
+    "countries": [
+      "Macao"
+    ]
+  },
+  {
+    "code": "MRU",
+    "name": "Ouguiya",
+    "digits": 2,
+    "countries": [
+      "Mauritania"
+    ]
+  },
+  {
+    "code": "MUR",
+    "name": "Mauritius Rupee",
+    "digits": 2,
+    "countries": [
+      "Mauritius"
+    ]
+  },
+  {
+    "code": "MVR",
+    "name": "Rufiyaa",
+    "digits": 2,
+    "countries": [
+      "Maldives"
+    ]
+  },
+  {
+    "code": "MWK",
+    "name": "Malawi Kwacha",
+    "digits": 2,
+    "countries": [
+      "Malawi"
+    ]
+  },
+  {
+    "code": "MXN",
+    "name": "Mexican Peso",
+    "digits": 2,
+    "countries": [
+      "Mexico"
+    ]
+  },
+  {
+    "code": "MXV",
+    "name": "Mexican Unidad de Inversion (UDI)",
+    "digits": 2,
+    "countries": [
+      "Mexico"
+    ]
+  },
+  {
+    "code": "MYR",
+    "name": "Malaysian Ringgit",
+    "digits": 2,
+    "countries": [
+      "Malaysia"
+    ]
+  },
+  {
+    "code": "MZN",
+    "name": "Mozambique Metical",
+    "digits": 2,
+    "countries": [
+      "Mozambique"
+    ]
+  },
+  {
+    "code": "NAD",
+    "name": "Namibia Dollar",
+    "digits": 2,
+    "countries": [
+      "Namibia"
+    ]
+  },
+  {
+    "code": "NGN",
+    "name": "Naira",
+    "digits": 2,
+    "countries": [
+      "Nigeria"
+    ]
+  },
+  {
+    "code": "NIO",
+    "name": "Cordoba Oro",
+    "digits": 2,
+    "countries": [
+      "Nicaragua"
+    ]
+  },
+  {
+    "code": "NOK",
+    "name": "Norwegian Krone",
+    "digits": 2,
+    "countries": [
+      "Bouvet Island",
+      "Norway",
+      "Svalbard And Jan Mayen"
+    ]
+  },
+  {
+    "code": "NPR",
+    "name": "Nepalese Rupee",
+    "digits": 2,
+    "countries": [
+      "Nepal"
+    ]
+  },
+  {
+    "code": "NZD",
+    "name": "New Zealand Dollar",
+    "digits": 2,
+    "countries": [
+      "Cook Islands (The)",
+      "New Zealand",
+      "Niue",
+      "Pitcairn",
+      "Tokelau"
+    ]
+  },
+  {
+    "code": "OMR",
+    "name": "Rial Omani",
+    "digits": 3,
+    "countries": [
+      "Oman"
+    ]
+  },
+  {
+    "code": "PAB",
+    "name": "Balboa",
+    "digits": 2,
+    "countries": [
+      "Panama"
+    ]
+  },
+  {
+    "code": "PEN",
+    "name": "Sol",
+    "digits": 2,
+    "countries": [
+      "Peru"
+    ]
+  },
+  {
+    "code": "PGK",
+    "name": "Kina",
+    "digits": 2,
+    "countries": [
+      "Papua New Guinea"
+    ]
+  },
+  {
+    "code": "PHP",
+    "name": "Philippine Peso",
+    "digits": 2,
+    "countries": [
+      "Philippines (The)"
+    ]
+  },
+  {
+    "code": "PKR",
+    "name": "Pakistan Rupee",
+    "digits": 2,
+    "countries": [
+      "Pakistan"
+    ]
+  },
+  {
+    "code": "PLN",
+    "name": "Zloty",
+    "digits": 2,
+    "countries": [
+      "Poland"
+    ]
+  },
+  {
+    "code": "PYG",
+    "name": "Guarani",
+    "digits": 0,
+    "countries": [
+      "Paraguay"
+    ]
+  },
+  {
+    "code": "QAR",
+    "name": "Qatari Rial",
+    "digits": 2,
+    "countries": [
+      "Qatar"
+    ]
+  },
+  {
+    "code": "RON",
+    "name": "Romanian Leu",
+    "digits": 2,
+    "countries": [
+      "Romania"
+    ]
+  },
+  {
+    "code": "RSD",
+    "name": "Serbian Dinar",
+    "digits": 2,
+    "countries": [
+      "Serbia"
+    ]
+  },
+  {
+    "code": "RUB",
+    "name": "Russian Ruble",
+    "digits": 2,
+    "countries": [
+      "Russian Federation (The)"
+    ]
+  },
+  {
+    "code": "RWF",
+    "name": "Rwanda Franc",
+    "digits": 0,
+    "countries": [
+      "Rwanda"
+    ]
+  },
+  {
+    "code": "SAR",
+    "name": "Saudi Riyal",
+    "digits": 2,
+    "countries": [
+      "Saudi Arabia"
+    ]
+  },
+  {
+    "code": "SBD",
+    "name": "Solomon Islands Dollar",
+    "digits": 2,
+    "countries": [
+      "Solomon Islands"
+    ]
+  },
+  {
+    "code": "SCR",
+    "name": "Seychelles Rupee",
+    "digits": 2,
+    "countries": [
+      "Seychelles"
+    ]
+  },
+  {
+    "code": "SDG",
+    "name": "Sudanese Pound",
+    "digits": 2,
+    "countries": [
+      "Sudan (The)"
+    ]
+  },
+  {
+    "code": "SEK",
+    "name": "Swedish Krona",
+    "digits": 2,
+    "countries": [
+      "Sweden"
+    ]
+  },
+  {
+    "code": "SGD",
+    "name": "Singapore Dollar",
+    "digits": 2,
+    "countries": [
+      "Singapore"
+    ]
+  },
+  {
+    "code": "SHP",
+    "name": "Saint Helena Pound",
+    "digits": 2,
+    "countries": [
+      "Saint Helena, Ascension And Tristan Da Cunha"
+    ]
+  },
+  {
+    "code": "SLE",
+    "name": "Leone",
+    "digits": 2,
+    "countries": [
+      "Sierra Leone"
+    ]
+  },
+  {
+    "code": "SOS",
+    "name": "Somali Shilling",
+    "digits": 2,
+    "countries": [
+      "Somalia"
+    ]
+  },
+  {
+    "code": "SRD",
+    "name": "Surinam Dollar",
+    "digits": 2,
+    "countries": [
+      "Suriname"
+    ]
+  },
+  {
+    "code": "SSP",
+    "name": "South Sudanese Pound",
+    "digits": 2,
+    "countries": [
+      "South Sudan"
+    ]
+  },
+  {
+    "code": "STN",
+    "name": "Dobra",
+    "digits": 2,
+    "countries": [
+      "Sao Tome And Principe"
+    ]
+  },
+  {
+    "code": "SVC",
+    "name": "El Salvador Colon",
+    "digits": 2,
+    "countries": [
+      "El Salvador"
+    ]
+  },
+  {
+    "code": "SYP",
+    "name": "Syrian Pound",
+    "digits": 2,
+    "countries": [
+      "Syrian Arab Republic"
+    ]
+  },
+  {
+    "code": "SZL",
+    "name": "Lilangeni",
+    "digits": 2,
+    "countries": [
+      "Eswatini"
+    ]
+  },
+  {
+    "code": "THB",
+    "name": "Baht",
+    "digits": 2,
+    "countries": [
+      "Thailand"
+    ]
+  },
+  {
+    "code": "TJS",
+    "name": "Somoni",
+    "digits": 2,
+    "countries": [
+      "Tajikistan"
+    ]
+  },
+  {
+    "code": "TMT",
+    "name": "Turkmenistan New Manat",
+    "digits": 2,
+    "countries": [
+      "Turkmenistan"
+    ]
+  },
+  {
+    "code": "TND",
+    "name": "Tunisian Dinar",
+    "digits": 3,
+    "countries": [
+      "Tunisia"
+    ]
+  },
+  {
+    "code": "TOP",
+    "name": "Pa’anga",
+    "digits": 2,
+    "countries": [
+      "Tonga"
+    ]
+  },
+  {
+    "code": "TRY",
+    "name": "Turkish Lira",
+    "digits": 2,
+    "countries": [
+      "Türki̇ye"
+    ]
+  },
+  {
+    "code": "TTD",
+    "name": "Trinidad and Tobago Dollar",
+    "digits": 2,
+    "countries": [
+      "Trinidad And Tobago"
+    ]
+  },
+  {
+    "code": "TWD",
+    "name": "New Taiwan Dollar",
+    "digits": 2,
+    "countries": [
+      "Taiwan (Province Of China)"
+    ]
+  },
+  {
+    "code": "TZS",
+    "name": "Tanzanian Shilling",
+    "digits": 2,
+    "countries": [
+      "Tanzania, United Republic Of"
+    ]
+  },
+  {
+    "code": "UAH",
+    "name": "Hryvnia",
+    "digits": 2,
+    "countries": [
+      "Ukraine"
+    ]
+  },
+  {
+    "code": "UGX",
+    "name": "Uganda Shilling",
+    "digits": 0,
+    "countries": [
+      "Uganda"
+    ]
+  },
+  {
+    "code": "USD",
+    "name": "US Dollar",
+    "digits": 2,
+    "countries": [
+      "American Samoa",
+      "Bonaire, Sint Eustatius And Saba",
+      "British Indian Ocean Territory (The)",
+      "Ecuador",
+      "El Salvador",
+      "Guam",
+      "Haiti",
+      "Marshall Islands (The)",
+      "Micronesia (Federated States Of)",
+      "Northern Mariana Islands (The)",
+      "Palau",
+      "Panama",
+      "Puerto Rico",
+      "Timor-Leste",
+      "Turks And Caicos Islands (The)",
+      "United States Minor Outlying Islands (The)",
+      "United States Of America (The)",
+      "Virgin Islands (British)",
+      "Virgin Islands (U.S.)"
+    ]
+  },
+  {
+    "code": "USN",
+    "name": "US Dollar (Next day)",
+    "digits": 2,
+    "countries": [
+      "United States Of America (The)"
+    ]
+  },
+  {
+    "code": "UYI",
+    "name": "Uruguay Peso en Unidades Indexadas (UI)",
+    "digits": 0,
+    "countries": [
+      "Uruguay"
+    ]
+  },
+  {
+    "code": "UYU",
+    "name": "Peso Uruguayo",
+    "digits": 2,
+    "countries": [
+      "Uruguay"
+    ]
+  },
+  {
+    "code": "UYW",
+    "name": "Unidad Previsional",
+    "digits": 4,
+    "countries": [
+      "Uruguay"
+    ]
+  },
+  {
+    "code": "UZS",
+    "name": "Uzbekistan Sum",
+    "digits": 2,
+    "countries": [
+      "Uzbekistan"
+    ]
+  },
+  {
+    "code": "VED",
+    "name": "Bolívar Soberano",
+    "digits": 2,
+    "countries": [
+      "Venezuela (Bolivarian Republic Of)"
+    ]
+  },
+  {
+    "code": "VES",
+    "name": "Bolívar Soberano",
+    "digits": 2,
+    "countries": [
+      "Venezuela (Bolivarian Republic Of)"
+    ]
+  },
+  {
+    "code": "VND",
+    "name": "Dong",
+    "digits": 0,
+    "countries": [
+      "Viet Nam"
+    ]
+  },
+  {
+    "code": "VUV",
+    "name": "Vatu",
+    "digits": 0,
+    "countries": [
+      "Vanuatu"
+    ]
+  },
+  {
+    "code": "WST",
+    "name": "Tala",
+    "digits": 2,
+    "countries": [
+      "Samoa"
+    ]
+  },
+  {
+    "code": "XAD",
+    "name": "Arab Accounting Dinar",
+    "digits": 2,
+    "countries": [
+      "Arab Monetary Fund"
+    ]
+  },
+  {
+    "code": "XAF",
+    "name": "CFA Franc BEAC",
+    "digits": 0,
+    "countries": [
+      "Cameroon",
+      "Central African Republic (The)",
+      "Chad",
+      "Congo (The)",
+      "Equatorial Guinea",
+      "Gabon"
+    ]
+  },
+  {
+    "code": "XAG",
+    "name": "Silver",
+    "digits": 2,
+    "countries": [
+      "Zz11_Silver"
+    ]
+  },
+  {
+    "code": "XAU",
+    "name": "Gold",
+    "digits": 2,
+    "countries": [
+      "Zz08_Gold"
+    ]
+  },
+  {
+    "code": "XBA",
+    "name": "Bond Markets Unit European Composite Unit (EURCO)",
+    "digits": 2,
+    "countries": [
+      "Zz01_Bond Markets Unit European_Eurco"
+    ]
+  },
+  {
+    "code": "XBB",
+    "name": "Bond Markets Unit European Monetary Unit (E.M.U.-6)",
+    "digits": 2,
+    "countries": [
+      "Zz02_Bond Markets Unit European_Emu-6"
+    ]
+  },
+  {
+    "code": "XBC",
+    "name": "Bond Markets Unit European Unit of Account 9 (E.U.A.-9)",
+    "digits": 2,
+    "countries": [
+      "Zz03_Bond Markets Unit European_Eua-9"
+    ]
+  },
+  {
+    "code": "XBD",
+    "name": "Bond Markets Unit European Unit of Account 17 (E.U.A.-17)",
+    "digits": 2,
+    "countries": [
+      "Zz04_Bond Markets Unit European_Eua-17"
+    ]
+  },
+  {
+    "code": "XCD",
+    "name": "East Caribbean Dollar",
+    "digits": 2,
+    "countries": [
+      "Anguilla",
+      "Antigua And Barbuda",
+      "Dominica",
+      "Grenada",
+      "Montserrat",
+      "Saint Kitts And Nevis",
+      "Saint Lucia",
+      "Saint Vincent And The Grenadines"
+    ]
+  },
+  {
+    "code": "XCG",
+    "name": "Caribbean Guilder",
+    "digits": 2,
+    "countries": [
+      "Curaçao",
+      "Sint Maarten (Dutch Part)"
+    ]
+  },
+  {
+    "code": "XDR",
+    "name": "SDR (Special Drawing Right)",
+    "digits": 2,
+    "countries": [
+      "International Monetary Fund (Imf) "
+    ]
+  },
+  {
+    "code": "XOF",
+    "name": "CFA Franc BCEAO",
+    "digits": 0,
+    "countries": [
+      "Benin",
+      "Burkina Faso",
+      "Côte D'Ivoire",
+      "Guinea-Bissau",
+      "Mali",
+      "Niger (The)",
+      "Senegal",
+      "Togo"
+    ]
+  },
+  {
+    "code": "XPD",
+    "name": "Palladium",
+    "digits": 2,
+    "countries": [
+      "Zz09_Palladium"
+    ]
+  },
+  {
+    "code": "XPF",
+    "name": "CFP Franc",
+    "digits": 0,
+    "countries": [
+      "French Polynesia",
+      "New Caledonia",
+      "Wallis And Futuna"
+    ]
+  },
+  {
+    "code": "XPT",
+    "name": "Platinum",
+    "digits": 2,
+    "countries": [
+      "Zz10_Platinum"
+    ]
+  },
+  {
+    "code": "XSU",
+    "name": "Sucre",
+    "digits": 2,
+    "countries": [
+      "Sistema Unitario De Compensacion Regional De Pagos \"Sucre\""
+    ]
+  },
+  {
+    "code": "XUA",
+    "name": "ADB Unit of Account",
+    "digits": 2,
+    "countries": [
+      "Member Countries Of The African Development Bank Group"
+    ]
+  },
+  {
+    "code": "YER",
+    "name": "Yemeni Rial",
+    "digits": 2,
+    "countries": [
+      "Yemen"
+    ]
+  },
+  {
+    "code": "ZAR",
+    "name": "Rand",
+    "digits": 2,
+    "countries": [
+      "Lesotho",
+      "Namibia",
+      "South Africa"
+    ]
+  },
+  {
+    "code": "ZMW",
+    "name": "Zambian Kwacha",
+    "digits": 2,
+    "countries": [
+      "Zambia"
+    ]
+  },
+  {
+    "code": "ZWG",
+    "name": "Zimbabwe Gold",
+    "digits": 2,
+    "countries": [
+      "Zimbabwe"
+    ]
+  }
+]

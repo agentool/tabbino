@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "providers": {
+      "googleSignIn": {
+        "oAuthBrandDisplayName": "Tabby",
+        "supportEmail": "owner@example.com"
+      }
+    }
+  }
+}

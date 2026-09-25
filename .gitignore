@@ -1,0 +1,17 @@
+node_modules/
+.next/
+.vercel/
+.env*
+!.env.example
+*.tsbuildinfo
+test-results/
+playwright-report/
+.DS_Store
+
+firebase-debug.log*
+
+# Local Firebase account/project configuration
+firebase.json
+.firebaserc
+*.log
+.vercel
