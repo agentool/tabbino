@@ -15,3 +15,7 @@ Every UI label must serve a function: an action, a status, or an actual explanat
 ## Personal data
 
 Never commit personal receiving wallets, payment emails, receipt photos, credentials, or account-specific configuration. Guest bills have empty payment destinations. Signed-in users may use their own privately stored payment profile for new bills where they are the payer. Never apply one user’s defaults to another payer or change existing shared bills automatically. Signed-in participant details come from the active session at runtime.
+
+## Deployment branches
+
+Follow docs/deployment.md: main deploys staging, prod deploys production. Independent/named reviews remain required; merge an exact PR revision only after they pass. Never auto-promote main to prod.
